@@ -1,0 +1,37 @@
+body {
+      margin: 0px;
+    }
+    ol {
+      border-right: 2px solid green;
+      width:100px;
+      margin: 0px;
+      padding: 20px;
+      padding-left: 40px;
+    }
+    a { color:green;
+      text-decoration:none;
+    }
+     h1 {
+       color:#1b5e20;
+       font-size:50px;
+       text-align: center;
+       border-bottom: 5px double green;
+       margin: 0px;
+       padding: 20px;
+     }
+  #grid {
+    display: grid;
+    grid-template-columns:150px 1fr;
+  }
+  #acticle {
+    padding: 20px;
+    padding-left:35px;
+  }
+  @media (max-width:650px){
+    #grid {
+      display:block;
+    }
+    ol {
+      border-right:none;
+    }
+  }
